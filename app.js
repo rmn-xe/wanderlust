@@ -46,7 +46,7 @@ async function main() {
 app.get("/",(req,res)=>{
     // console.dir(req.cookies);
     // console.dir(req.session);
-    res.send("hi i am root");
+    res.redirect("/listings");
 });
 app.use(cookieParser("secretcode"));
 const store=MongoStore.create({
