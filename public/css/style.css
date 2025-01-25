@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex:1;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-airbnb{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222 !important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-links{
+    width: 100%;
+}
+.f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.f-info-socials i{
+    color: #222;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+    text-decoration: none !important;
+}
+.listing-link{
+    text-decoration: none ;
+}
+.card-text{
+    font-weight: 400;
+}
+
+/* card effect or overlay effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+.new-location{
+    margin: 0;
+}
+
+/* Show page */
+.show-img{
+    object-fit:cover;
+    height: 30vh;
+
+}
+.show-btns{
+    display: flex;
+    gap: 2rem;
+}
+
+.alert{
+    margin-top: 10rem;
+
+}
+#map{
+    height:300px;
+    width:85vh;
+}
+
+/* index filter */
+#filters{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.filter{
+    text-align: center;
+    margin-right: 2rem;
+    opacity: 0.7;
+}
+.filter:hover{
+    opacity: 1;
+    cursor: pointer;
+   
+}
+.filter p{
+    font-size: 0.8rem;
+}
+a{
+    text-decoration:none;
+    color: #222;
+    border: none;
+}  
